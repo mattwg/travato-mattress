@@ -122,7 +122,11 @@
       M 460,30
       A 30,30 0 0,1 490,0
       L 770,0
-      L 770,740
+      L 770,650
+      L 740,650
+      L 740,710
+      L 680,710
+      L 680,740
       L 490,740
       A 30,30 0 0,1 460,710
       L 460,30
@@ -150,16 +154,51 @@
       <text class="dimension-text" x="615" y="-35" text-anchor="middle">31"</text>
     </g>
     
-    <!-- Length dimension (74") -->
+    <!-- Length dimension on left (74") -->
     <g>
-      <line class="dimension-line" x1="820" y1="5" x2="820" y2="735" marker-start="url(#arrowhead-reverse)" marker-end="url(#arrowhead)" />
-      <text class="dimension-text" x="850" y="375" text-anchor="middle">74"</text>
+      <line class="dimension-line" x1="410" y1="5" x2="410" y2="735" marker-start="url(#arrowhead-reverse)" marker-end="url(#arrowhead)" />
+      <text class="dimension-text" x="380" y="375" text-anchor="middle">74"</text>
+    </g>
+    
+    <!-- Length dimensions on right (65" + 9") -->
+    <!-- Top to cutout (65") -->
+    <g>
+      <line class="dimension-line" x1="820" y1="5" x2="820" y2="645" marker-start="url(#arrowhead-reverse)" marker-end="url(#arrowhead)" />
+      <text class="dimension-text" x="850" y="330" text-anchor="middle">65"</text>
+    </g>
+    
+    <!-- Cutout to bottom (9") -->
+    <g>
+      <line class="dimension-line" x1="820" y1="655" x2="820" y2="735" marker-start="url(#arrowhead-reverse)" marker-end="url(#arrowhead)" />
+      <text class="dimension-text" x="850" y="698" text-anchor="middle">9"</text>
+    </g>
+    
+    <!-- L-shaped cutout dimensions -->
+    <!-- Vertical leg width (3") -->
+    <g>
+      <line class="dimension-line" x1="745" y1="680" x2="765" y2="680" marker-start="url(#arrowhead-reverse)" marker-end="url(#arrowhead)" />
+      <text class="dimension-text" x="755" y="670" text-anchor="middle">3"</text>
+    </g>
+    
+    <!-- Horizontal leg height (3") -->
+    <g>
+      <line class="dimension-line" x1="710" y1="715" x2="710" y2="735" marker-start="url(#arrowhead-reverse)" marker-end="url(#arrowhead)" />
+      <text class="dimension-text" x="700" y="728" text-anchor="end">3"</text>
+    </g>
+    
+    <!-- Distance from bottom corner to horizontal cutout (9") -->
+    <g>
+      <line class="dimension-line" x1="680" y1="765" x2="765" y2="765" marker-start="url(#arrowhead-reverse)" marker-end="url(#arrowhead)" />
+      <text class="dimension-text" x="722" y="785" text-anchor="middle">9"</text>
     </g>
     
     <!-- Construction lines for second mattress -->
     <line class="construction-line" x1="460" y1="-50" x2="460" y2="790" />
     <line class="construction-line" x1="770" y1="-50" x2="770" y2="790" />
     <line class="construction-line" x1="450" y1="740" x2="780" y2="740" />
+    <line class="construction-line" x1="740" y1="710" x2="780" y2="710" />
+    <line class="construction-line" x1="670" y1="710" x2="670" y2="750" />
+    <line class="construction-line" x1="680" y1="710" x2="680" y2="750" />
     
   </g>
   
