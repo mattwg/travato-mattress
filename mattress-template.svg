@@ -1,5 +1,5 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1200" height="1000" viewBox="0 0 1200 1000">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1400" height="1000" viewBox="0 0 1400 1000">
   <defs>
     <style>
       .outline { fill: none; stroke: #000; stroke-width: 2; }
@@ -17,8 +17,8 @@
   </defs>
   
   <!-- Title -->
-  <text x="550" y="30" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 18px; font-weight: bold;">Twin Mattress Technical Drawings</text>
-  <text x="550" y="50" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 12px;">All dimensions in inches</text>
+  <text x="650" y="30" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 18px; font-weight: bold;">Travato KL 2019 Mattress Template</text>
+  <text x="650" y="50" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 12px;">All dimensions in inches</text>
   
   <!-- Main coordinate offset for drawing -->
   <g transform="translate(150, 100)">
@@ -37,6 +37,10 @@
       L 0,0
       Z
     " />
+    
+    <!-- Label for left mattress -->
+    <text x="155" y="390" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 14px; fill: #000000; font-weight: bold;">Mattress</text>
+    <text x="155" y="410" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 14px; fill: #000000; font-weight: bold;">Passenger Side</text>
     
     <!-- Width dimension at top (31") -->
     <g>
@@ -133,6 +137,10 @@
       Z
     " />
     
+    <!-- Label for right mattress -->
+    <text x="715" y="360" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 14px; fill: #000000; font-weight: bold;">Mattress</text>
+    <text x="715" y="380" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 14px; fill: #000000; font-weight: bold;">Driver Side</text>
+    
     <!-- Second mattress dimensions -->
     <!-- Top left corner radius (3") -->
     <g>
@@ -199,6 +207,52 @@
     <line class="construction-line" x1="840" y1="710" x2="880" y2="710" />
     <line class="construction-line" x1="770" y1="710" x2="770" y2="750" />
     <line class="construction-line" x1="780" y1="710" x2="780" y2="750" />
+    
+    <!-- Cushions (15" x 27" each) -->
+    <!-- Bottom cushion -->
+    <rect class="outline" x="1020" y="375" width="150" height="270" />
+    
+    <!-- Label for bottom cushion -->
+    <text x="1095" y="515" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 14px; fill: #000000; font-weight: bold;">Cushion 2</text>
+    
+    <!-- Top cushion -->
+    <rect class="outline" x="1020" y="95" width="150" height="270" />
+    
+    <!-- Label for top cushion -->
+    <text x="1095" y="235" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 14px; fill: #000000; font-weight: bold;">Cushion 1</text>
+    
+    <!-- Cushion dimensions -->
+    <!-- Width (15") -->
+    <g>
+      <line class="dimension-line" x1="1025" y1="-30" x2="1165" y2="-30" marker-start="url(#arrowhead-reverse)" marker-end="url(#arrowhead)" />
+      <text class="dimension-text" x="1095" y="-35" text-anchor="middle">15"</text>
+    </g>
+    
+    <!-- Bottom cushion height (27") -->
+    <g>
+      <line class="dimension-line" x1="1220" y1="380" x2="1220" y2="640" marker-start="url(#arrowhead-reverse)" marker-end="url(#arrowhead)" />
+      <text class="dimension-text" x="1250" y="515" text-anchor="middle">27"</text>
+    </g>
+    
+    <!-- Top cushion height (27") -->
+    <g>
+      <line class="dimension-line" x1="1220" y1="100" x2="1220" y2="360" marker-start="url(#arrowhead-reverse)" marker-end="url(#arrowhead)" />
+      <text class="dimension-text" x="1250" y="235" text-anchor="middle">27"</text>
+    </g>
+    
+    <!-- Gap between cushions (1") -->
+    <g>
+      <line class="dimension-line" x1="1190" y1="365" x2="1190" y2="375" marker-start="url(#arrowhead-reverse)" marker-end="url(#arrowhead)" />
+      <text class="dimension-text" x="1180" y="373" text-anchor="end" style="font-size: 10px;">1"</text>
+    </g>
+    
+    <!-- Construction lines for cushions -->
+    <line class="construction-line" x1="1020" y1="-50" x2="1020" y2="700" />
+    <line class="construction-line" x1="1170" y1="-50" x2="1170" y2="700" />
+    <line class="construction-line" x1="1010" y1="95" x2="1180" y2="95" />
+    <line class="construction-line" x1="1010" y1="365" x2="1200" y2="365" />
+    <line class="construction-line" x1="1010" y1="375" x2="1200" y2="375" />
+    <line class="construction-line" x1="1010" y1="645" x2="1180" y2="645" />
     
   </g>
   
