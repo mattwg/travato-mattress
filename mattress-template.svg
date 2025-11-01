@@ -84,7 +84,7 @@
     <!-- Half inch straight segment dimension (0.5") -->
     <g>
       <!-- Vertical dashed reference lines -->
-      <line class="construction-line" x1="25" y1="650" x2="25" y2="675" />
+      <line class="construction-line" x1="25" y1="630" x2="25" y2="675" />
       <line class="construction-line" x1="30" y1="650" x2="30" y2="675" />
       <!-- Dimension lines with arrows pointing inward (tips align with dashed lines) -->
       <line class="dimension-line" x1="15" y1="665" x2="20" y2="665" marker-end="url(#arrowhead)" />
