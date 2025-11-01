@@ -115,17 +115,6 @@
     <line class="construction-line" x1="310" y1="-50" x2="310" y2="850" />
     <line class="construction-line" x1="30" y1="655" x2="30" y2="870" />
     
-    <!-- Additional labels for key points -->
-    <g>
-      <circle cx="0" cy="0" r="2" fill="#0000ff" />
-      <text x="-20" y="-10" style="font-family: Arial, sans-serif; font-size: 10px; fill: #0000ff;">Top Left</text>
-    </g>
-    
-    <g>
-      <circle cx="310" cy="0" r="2" fill="#0000ff" />
-      <text x="320" y="-10" style="font-family: Arial, sans-serif; font-size: 10px; fill: #0000ff;">Top Right</text>
-    </g>
-    
   </g>
   
   <!-- Notes -->
