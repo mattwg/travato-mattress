@@ -59,12 +59,14 @@
     <!-- Top right corner radius (3") -->
     <g>
       <circle cx="280" cy="30" r="3" fill="#ff0000" />
+      <line class="dimension-line" x1="280" y1="30" x2="318" y2="25" stroke-dasharray="2,2" />
       <text class="dimension-text" x="320" y="25" text-anchor="start">R 3"</text>
     </g>
     
     <!-- Bottom right corner radius (3") -->
     <g>
       <circle cx="280" cy="770" r="3" fill="#ff0000" />
+      <line class="dimension-line" x1="280" y1="770" x2="318" y2="775" stroke-dasharray="2,2" />
       <text class="dimension-text" x="320" y="775" text-anchor="start">R 3"</text>
     </g>
     
