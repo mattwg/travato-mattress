@@ -258,8 +258,9 @@
   
   <!-- Notes -->
   <text x="20" y="960" style="font-family: Arial, sans-serif; font-size: 11px;">Notes:</text>
-  <text x="20" y="980" style="font-family: Arial, sans-serif; font-size: 10px;">• Both right corners have 3" radius curves</text>
-  <text x="20" y="995" style="font-family: Arial, sans-serif; font-size: 10px;">• Bottom left cutout accommodates protrusion (17" × 3" with 2.5" radius + 0.5" straight segment)</text>
+  <text x="20" y="980" style="font-family: Arial, sans-serif; font-size: 10px;">• All mattresses are 6" thick</text>
+  <text x="20" y="995" style="font-family: Arial, sans-serif; font-size: 10px;">• Both right corners have 3" radius curves</text>
+  <text x="20" y="1010" style="font-family: Arial, sans-serif; font-size: 10px;">• Bottom left cutout accommodates protrusion (17" × 3" with 2.5" radius + 0.5" straight segment)</text>
   
 </svg>
 
