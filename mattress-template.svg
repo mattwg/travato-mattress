@@ -1,5 +1,5 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1400" height="1000" viewBox="0 0 1400 1000">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1500" height="1000" viewBox="0 0 1500 1000">
   <defs>
     <style>
       .outline { fill: none; stroke: #000; stroke-width: 2; }
@@ -17,8 +17,8 @@
   </defs>
   
   <!-- Title -->
-  <text x="650" y="30" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 18px; font-weight: bold;">Travato KL 2019 Mattress Template</text>
-  <text x="650" y="50" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 12px;">All dimensions in inches</text>
+  <text x="700" y="30" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 18px; font-weight: bold;">Travato KL 2019 Mattress Template</text>
+  <text x="700" y="50" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 12px;">All dimensions in inches</text>
   
   <!-- Main coordinate offset for drawing -->
   <g transform="translate(150, 100)">
@@ -32,8 +32,7 @@
       A 30,30 0 0,1 280,800
       L 30,800
       L 30,655
-      L 25,655
-      A 25,25 0 0,1 0,630
+      L 0,645
       L 0,0
       Z
     " />
@@ -74,12 +73,7 @@
       <text class="dimension-text" x="320" y="775" text-anchor="start">R 3"</text>
     </g>
     
-    <!-- Left curve radius (2.5") -->
-    <g>
-      <circle cx="25" cy="630" r="3" fill="#ff0000" />
-      <line class="dimension-line" x1="25" y1="630" x2="-35" y2="600" stroke-dasharray="2,2" />
-      <text class="dimension-text" x="-40" y="600" text-anchor="end">R 2.5"</text>
-    </g>
+    <!-- Linear notch (no radius) -->
     
     <!-- Cutout width dimension (3") -->
     <g>
@@ -87,34 +81,33 @@
       <text class="dimension-text" x="15" y="730" text-anchor="middle">3"</text>
     </g>
     
-    <!-- Half inch straight segment dimension (0.5") -->
+    <!-- Linear notch height (1") -->
     <g>
-      <!-- Vertical dashed reference lines -->
-      <line class="construction-line" x1="25" y1="630" x2="25" y2="675" />
-      <line class="construction-line" x1="30" y1="650" x2="30" y2="675" />
-      <!-- Dimension lines with arrows pointing inward (tips align with dashed lines) -->
-      <line class="dimension-line" x1="15" y1="665" x2="20" y2="665" marker-end="url(#arrowhead)" />
-      <line class="dimension-line" x1="40" y1="665" x2="35" y2="665" marker-end="url(#arrowhead)" />
+      <!-- Small tick marks at top and bottom of notch -->
+      <line class="dimension-line" x1="-5" y1="645" x2="5" y2="645" />
+      <line class="dimension-line" x1="-5" y1="655" x2="5" y2="655" />
+      <!-- Vertical dimension line -->
+      <line class="dimension-line" x1="0" y1="645" x2="0" y2="655" />
       <!-- Leader line to label -->
-      <line class="dimension-line" x1="27.5" y1="665" x2="60" y2="680" stroke-dasharray="2,2" />
-      <text class="dimension-text" x="65" y="683" text-anchor="start" style="font-size: 10px;">0.5"</text>
+      <line class="dimension-line" x1="0" y1="650" x2="-30" y2="635" stroke-dasharray="2,2" />
+      <text class="dimension-text" x="-35" y="638" text-anchor="end" style="font-size: 10px;">1"</text>
     </g>
     
-    <!-- Cutout height dimension (17") -->
+    <!-- Cutout height dimension (15.5") -->
     <g>
-      <line class="dimension-line" x1="-50" y1="635" x2="-50" y2="795" marker-start="url(#arrowhead-reverse)" marker-end="url(#arrowhead)" />
-      <text class="dimension-text" x="-80" y="720" text-anchor="middle">17"</text>
+      <line class="dimension-line" x1="-50" y1="650" x2="-50" y2="795" marker-start="url(#arrowhead-reverse)" marker-end="url(#arrowhead)" />
+      <text class="dimension-text" x="-80" y="725" text-anchor="middle">15.5"</text>
     </g>
     
-    <!-- Distance from top to curve start (63") -->
+    <!-- Distance from top to notch start (64.5") -->
     <g>
-      <line class="dimension-line" x1="-80" y1="5" x2="-80" y2="625" marker-start="url(#arrowhead-reverse)" marker-end="url(#arrowhead)" />
-      <text class="dimension-text" x="-110" y="315" text-anchor="middle">63"</text>
+      <line class="dimension-line" x1="-80" y1="5" x2="-80" y2="640" marker-start="url(#arrowhead-reverse)" marker-end="url(#arrowhead)" />
+      <text class="dimension-text" x="-110" y="322" text-anchor="middle">64.5"</text>
     </g>
     
     <!-- Construction lines for clarity -->
     <line class="construction-line" x1="-100" y1="0" x2="880" y2="0" />
-    <line class="construction-line" x1="-100" y1="630" x2="50" y2="630" />
+    <line class="construction-line" x1="-100" y1="645" x2="50" y2="645" />
     <line class="construction-line" x1="-100" y1="655" x2="50" y2="655" />
     <line class="construction-line" x1="-100" y1="800" x2="320" y2="800" />
     <line class="construction-line" x1="0" y1="-50" x2="0" y2="850" />
@@ -208,18 +201,18 @@
     <line class="construction-line" x1="770" y1="710" x2="770" y2="750" />
     <line class="construction-line" x1="780" y1="710" x2="780" y2="750" />
     
-    <!-- Cushions (15" x 27" each) -->
+    <!-- Cushions (15" x 28" each) -->
     <!-- Bottom cushion -->
-    <rect class="outline" x="1020" y="375" width="150" height="270" />
+    <rect class="outline" x="1020" y="375" width="150" height="280" />
     
     <!-- Label for bottom cushion -->
-    <text x="1095" y="515" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 14px; fill: #000000; font-weight: bold;">Cushion 2</text>
+    <text x="1095" y="520" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 14px; fill: #000000; font-weight: bold;">Cushion 2</text>
     
     <!-- Top cushion -->
-    <rect class="outline" x="1020" y="95" width="150" height="270" />
+    <rect class="outline" x="1020" y="85" width="150" height="280" />
     
     <!-- Label for top cushion -->
-    <text x="1095" y="235" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 14px; fill: #000000; font-weight: bold;">Cushion 1</text>
+    <text x="1095" y="230" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 14px; fill: #000000; font-weight: bold;">Cushion 1</text>
     
     <!-- Cushion dimensions -->
     <!-- Width (15") -->
@@ -228,31 +221,25 @@
       <text class="dimension-text" x="1095" y="-35" text-anchor="middle">15"</text>
     </g>
     
-    <!-- Bottom cushion height (27") -->
+    <!-- Bottom cushion height (28") -->
     <g>
-      <line class="dimension-line" x1="1220" y1="380" x2="1220" y2="640" marker-start="url(#arrowhead-reverse)" marker-end="url(#arrowhead)" />
-      <text class="dimension-text" x="1250" y="515" text-anchor="middle">27"</text>
+      <line class="dimension-line" x1="1220" y1="380" x2="1220" y2="650" marker-start="url(#arrowhead-reverse)" marker-end="url(#arrowhead)" />
+      <text class="dimension-text" x="1250" y="520" text-anchor="middle">28"</text>
     </g>
     
-    <!-- Top cushion height (27") -->
+    <!-- Top cushion height (28") -->
     <g>
-      <line class="dimension-line" x1="1220" y1="100" x2="1220" y2="360" marker-start="url(#arrowhead-reverse)" marker-end="url(#arrowhead)" />
-      <text class="dimension-text" x="1250" y="235" text-anchor="middle">27"</text>
-    </g>
-    
-    <!-- Gap between cushions (1") -->
-    <g>
-      <line class="dimension-line" x1="1190" y1="365" x2="1190" y2="375" marker-start="url(#arrowhead-reverse)" marker-end="url(#arrowhead)" />
-      <text class="dimension-text" x="1180" y="373" text-anchor="end" style="font-size: 10px;">1"</text>
+      <line class="dimension-line" x1="1220" y1="90" x2="1220" y2="360" marker-start="url(#arrowhead-reverse)" marker-end="url(#arrowhead)" />
+      <text class="dimension-text" x="1250" y="230" text-anchor="middle">28"</text>
     </g>
     
     <!-- Construction lines for cushions -->
-    <line class="construction-line" x1="1020" y1="-50" x2="1020" y2="700" />
-    <line class="construction-line" x1="1170" y1="-50" x2="1170" y2="700" />
-    <line class="construction-line" x1="1010" y1="95" x2="1180" y2="95" />
+    <line class="construction-line" x1="1020" y1="-50" x2="1020" y2="710" />
+    <line class="construction-line" x1="1170" y1="-50" x2="1170" y2="710" />
+    <line class="construction-line" x1="1010" y1="85" x2="1180" y2="85" />
     <line class="construction-line" x1="1010" y1="365" x2="1200" y2="365" />
     <line class="construction-line" x1="1010" y1="375" x2="1200" y2="375" />
-    <line class="construction-line" x1="1010" y1="645" x2="1180" y2="645" />
+    <line class="construction-line" x1="1010" y1="655" x2="1180" y2="655" />
     
   </g>
   
@@ -260,7 +247,7 @@
   <text x="20" y="960" style="font-family: Arial, sans-serif; font-size: 11px;">Notes:</text>
   <text x="20" y="980" style="font-family: Arial, sans-serif; font-size: 10px;">• All mattresses are 6" thick</text>
   <text x="20" y="995" style="font-family: Arial, sans-serif; font-size: 10px;">• Both right corners have 3" radius curves</text>
-  <text x="20" y="1010" style="font-family: Arial, sans-serif; font-size: 10px;">• Bottom left cutout accommodates protrusion (17" × 3" with 2.5" radius + 0.5" straight segment)</text>
+  <text x="20" y="1010" style="font-family: Arial, sans-serif; font-size: 10px;">• Bottom left cutout has linear diagonal notch starting at 64.5" from top (15.5" × 3")</text>
   
 </svg>
 
