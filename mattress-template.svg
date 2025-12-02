@@ -7,6 +7,8 @@
       .dimension-text { font-family: Arial, sans-serif; font-size: 12px; fill: #ff0000; }
       .dimension-arrow { stroke: #ff0000; stroke-width: 1; fill: #ff0000; }
       .construction-line { stroke: #888; stroke-width: 0.5; stroke-dasharray: 3,3; fill: none; }
+      .zipper-line { stroke: #0000ff; stroke-width: 3; fill: none; stroke-dasharray: 8,4; }
+      .zipper-text { font-family: Arial, sans-serif; font-size: 11px; fill: #0000ff; font-weight: bold; }
     </style>
     <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="5" refY="3" orient="auto">
       <polygon points="0 0, 10 3, 0 6" fill="#ff0000" />
@@ -94,6 +96,12 @@
       <text class="dimension-text" x="-110" y="322" text-anchor="middle">64.5"</text>
     </g>
     
+    <!-- Zipper position for passenger side mattress -->
+    <g>
+      <line class="zipper-line" x1="0" y1="20" x2="0" y2="625" />
+      <text class="zipper-text" x="-15" y="320" text-anchor="middle" transform="rotate(-90 -15 320)">ZIP POSITION</text>
+    </g>
+    
     <!-- Construction lines for clarity -->
     <line class="construction-line" x1="-100" y1="0" x2="880" y2="0" />
     <line class="construction-line" x1="-100" y1="645" x2="50" y2="645" />
@@ -150,6 +158,12 @@
     <g>
       <line class="dimension-line" x1="920" y1="655" x2="920" y2="735" marker-start="url(#arrowhead-reverse)" marker-end="url(#arrowhead)" />
       <text class="dimension-text" x="950" y="698" text-anchor="middle">9"</text>
+    </g>
+    
+    <!-- Zipper position for driver side mattress -->
+    <g>
+      <line class="zipper-line" x1="870" y1="20" x2="870" y2="630" />
+      <text class="zipper-text" x="885" y="325" text-anchor="middle" transform="rotate(90 885 325)">ZIP POSITION</text>
     </g>
     
     <!-- L-shaped cutout dimensions -->
@@ -211,6 +225,18 @@
     <g>
       <line class="dimension-line" x1="1220" y1="90" x2="1220" y2="360" marker-start="url(#arrowhead-reverse)" marker-end="url(#arrowhead)" />
       <text class="dimension-text" x="1250" y="230" text-anchor="middle">28"</text>
+    </g>
+    
+    <!-- Zipper position for cushion 1 (on 28" side) -->
+    <g>
+      <line class="zipper-line" x1="1170" y1="100" x2="1170" y2="350" />
+      <text class="zipper-text" x="1185" y="225" text-anchor="middle" transform="rotate(90 1185 225)">ZIP POSITION</text>
+    </g>
+    
+    <!-- Zipper position for cushion 2 (on 28" side) -->
+    <g>
+      <line class="zipper-line" x1="1170" y1="390" x2="1170" y2="640" />
+      <text class="zipper-text" x="1185" y="515" text-anchor="middle" transform="rotate(90 1185 515)">ZIP POSITION</text>
     </g>
     
     <!-- Construction lines for cushions -->
