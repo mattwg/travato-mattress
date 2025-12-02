@@ -26,11 +26,9 @@
     <!-- The mattress outline -->
     <path class="outline" d="
       M 0,0
-      L 280,0
-      A 30,30 0 0,1 310,30
-      L 310,770
-      A 30,30 0 0,1 280,800
-      L 30,800
+      L 310,0
+      L 310,785
+      L 30,785
       L 30,655
       L 0,645
       L 0,0
@@ -40,6 +38,7 @@
     <!-- Label for left mattress -->
     <text x="155" y="390" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 14px; fill: #000000; font-weight: bold;">Mattress</text>
     <text x="155" y="410" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 14px; fill: #000000; font-weight: bold;">Passenger Side</text>
+    <text x="155" y="430" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 12px; fill: #000000;">(6 inch deep)</text>
     
     <!-- Width dimension at top (31") -->
     <g>
@@ -47,10 +46,10 @@
       <text class="dimension-text" x="155" y="-35" text-anchor="middle">31"</text>
     </g>
     
-    <!-- Overall length dimension (80") -->
+    <!-- Overall length dimension (78.5") -->
     <g>
-      <line class="dimension-line" x1="360" y1="5" x2="360" y2="795" marker-start="url(#arrowhead-reverse)" marker-end="url(#arrowhead)" />
-      <text class="dimension-text" x="390" y="405" text-anchor="middle">80"</text>
+      <line class="dimension-line" x1="360" y1="5" x2="360" y2="780" marker-start="url(#arrowhead-reverse)" marker-end="url(#arrowhead)" />
+      <text class="dimension-text" x="390" y="397" text-anchor="middle">78.5"</text>
     </g>
     
     <!-- Width at bottom (28") -->
@@ -59,19 +58,9 @@
       <text class="dimension-text" x="170" y="870" text-anchor="middle">28"</text>
     </g>
     
-    <!-- Top right corner radius (3") -->
-    <g>
-      <circle cx="280" cy="30" r="3" fill="#ff0000" />
-      <line class="dimension-line" x1="280" y1="30" x2="318" y2="25" stroke-dasharray="2,2" />
-      <text class="dimension-text" x="320" y="25" text-anchor="start">R 3"</text>
-    </g>
+    <!-- Top right corner radius (3") - REMOVED (now square) -->
     
-    <!-- Bottom right corner radius (3") -->
-    <g>
-      <circle cx="280" cy="770" r="3" fill="#ff0000" />
-      <line class="dimension-line" x1="280" y1="770" x2="318" y2="775" stroke-dasharray="2,2" />
-      <text class="dimension-text" x="320" y="775" text-anchor="start">R 3"</text>
-    </g>
+    <!-- Bottom right corner radius (3") - REMOVED (now square) -->
     
     <!-- Linear notch (no radius) -->
     
@@ -93,10 +82,10 @@
       <text class="dimension-text" x="-35" y="638" text-anchor="end" style="font-size: 10px;">1"</text>
     </g>
     
-    <!-- Cutout height dimension (15.5") -->
+    <!-- Cutout height dimension (14") -->
     <g>
-      <line class="dimension-line" x1="-50" y1="650" x2="-50" y2="795" marker-start="url(#arrowhead-reverse)" marker-end="url(#arrowhead)" />
-      <text class="dimension-text" x="-80" y="725" text-anchor="middle">15.5"</text>
+      <line class="dimension-line" x1="-50" y1="650" x2="-50" y2="780" marker-start="url(#arrowhead-reverse)" marker-end="url(#arrowhead)" />
+      <text class="dimension-text" x="-80" y="717" text-anchor="middle">14"</text>
     </g>
     
     <!-- Distance from top to notch start (64.5") -->
@@ -109,45 +98,34 @@
     <line class="construction-line" x1="-100" y1="0" x2="880" y2="0" />
     <line class="construction-line" x1="-100" y1="645" x2="50" y2="645" />
     <line class="construction-line" x1="-100" y1="655" x2="50" y2="655" />
-    <line class="construction-line" x1="-100" y1="800" x2="320" y2="800" />
-    <line class="construction-line" x1="0" y1="-50" x2="0" y2="850" />
-    <line class="construction-line" x1="310" y1="-50" x2="310" y2="850" />
-    <line class="construction-line" x1="30" y1="655" x2="30" y2="870" />
+    <line class="construction-line" x1="-100" y1="785" x2="320" y2="785" />
+    <line class="construction-line" x1="0" y1="-50" x2="0" y2="835" />
+    <line class="construction-line" x1="310" y1="-50" x2="310" y2="835" />
+    <line class="construction-line" x1="30" y1="655" x2="30" y2="835" />
     
     <!-- Second mattress (31" x 74") -->
     <path class="outline" d="
-      M 560,30
-      A 30,30 0 0,1 590,0
+      M 560,0
       L 870,0
       L 870,650
       L 840,650
       L 840,710
       L 780,710
       L 780,740
-      L 590,740
-      A 30,30 0 0,1 560,710
-      L 560,30
+      L 560,740
+      L 560,0
       Z
     " />
     
     <!-- Label for right mattress -->
     <text x="715" y="360" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 14px; fill: #000000; font-weight: bold;">Mattress</text>
     <text x="715" y="380" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 14px; fill: #000000; font-weight: bold;">Driver Side</text>
+    <text x="715" y="400" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 12px; fill: #000000;">(6 inch deep)</text>
     
     <!-- Second mattress dimensions -->
-    <!-- Top left corner radius (3") -->
-    <g>
-      <circle cx="590" cy="30" r="3" fill="#ff0000" />
-      <line class="dimension-line" x1="590" y1="30" x2="552" y2="25" stroke-dasharray="2,2" />
-      <text class="dimension-text" x="550" y="25" text-anchor="end">R 3"</text>
-    </g>
+    <!-- Top left corner radius (3") - REMOVED (now square) -->
     
-    <!-- Bottom left corner radius (3") -->
-    <g>
-      <circle cx="590" cy="710" r="3" fill="#ff0000" />
-      <line class="dimension-line" x1="590" y1="710" x2="552" y2="715" stroke-dasharray="2,2" />
-      <text class="dimension-text" x="550" y="715" text-anchor="end">R 3"</text>
-    </g>
+    <!-- Bottom left corner radius (3") - REMOVED (now square) -->
     
     <!-- Width dimension at top (31") -->
     <g>
@@ -206,13 +184,15 @@
     <rect class="outline" x="1020" y="375" width="150" height="280" />
     
     <!-- Label for bottom cushion -->
-    <text x="1095" y="520" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 14px; fill: #000000; font-weight: bold;">Cushion 2</text>
+    <text x="1095" y="515" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 14px; fill: #000000; font-weight: bold;">Cushion 2</text>
+    <text x="1095" y="535" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 12px; fill: #000000;">(7 inch deep)</text>
     
     <!-- Top cushion -->
     <rect class="outline" x="1020" y="85" width="150" height="280" />
     
     <!-- Label for top cushion -->
-    <text x="1095" y="230" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 14px; fill: #000000; font-weight: bold;">Cushion 1</text>
+    <text x="1095" y="225" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 14px; fill: #000000; font-weight: bold;">Cushion 1</text>
+    <text x="1095" y="245" text-anchor="middle" style="font-family: Arial, sans-serif; font-size: 12px; fill: #000000;">(7 inch deep)</text>
     
     <!-- Cushion dimensions -->
     <!-- Width (15") -->
@@ -242,12 +222,6 @@
     <line class="construction-line" x1="1010" y1="655" x2="1180" y2="655" />
     
   </g>
-  
-  <!-- Notes -->
-  <text x="20" y="960" style="font-family: Arial, sans-serif; font-size: 11px;">Notes:</text>
-  <text x="20" y="980" style="font-family: Arial, sans-serif; font-size: 10px;">• All mattresses are 6" thick</text>
-  <text x="20" y="995" style="font-family: Arial, sans-serif; font-size: 10px;">• Both right corners have 3" radius curves</text>
-  <text x="20" y="1010" style="font-family: Arial, sans-serif; font-size: 10px;">• Bottom left cutout has linear diagonal notch starting at 64.5" from top (15.5" × 3")</text>
   
 </svg>
 
